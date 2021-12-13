@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("../img/78255-background-looping-animation.gif");
+    background-position: center;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+   
+}
+
+.div_imagem{
+
+    width: 28%;
+    height: 80vh;
+    background-image: linear-gradient(to top, rgb(45, 55, 196),rgb(115, 42, 231));
+    position: relative;
+    display: flex;
+    border-radius: 11px;
+    border-top-right-radius: 0px;
+    border-end-end-radius: 0px;  
+}
+
+.form_cadastro{
+    width: 35%;
+    height: 80vh;
+    backdrop-filter: blur(10px);
+    background: rgba(201, 201, 201, 0.1);
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.1);
+    border-top: 1px solid rgba(255,255,255,.3);
+    border-right: 1px solid rgba(255,255,255,.3);
+    border-top-right-radius: 11px;
+    border-end-end-radius: 11px;
+
+    
+}
+
+
+.form_cadastro form{
+    justify-content: center;
+    text-align: center;
+}
+
+form h1{
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    
+}
+
+.form_cadastro p{
+    color: white;
+}
+
+.form_cadastro a{
+    color: rgb(115, 42, 231);
+}
+
+form button{
+    width: 380px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(45, 55, 196);
+    color: white;
+    text-align: center;
+    margin-top: 13px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 19px;
+
+    
+}
+
+
+.form_cadastro form label{ 
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: white;
+    
+    
+}
+
+.form_cadastro form input{
+    background-color:#EEEEEE;
+    width: 360px;
+    margin-bottom: 20px;
+    padding: 11px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+      
+}
+.form_cadastro .form input:focus{
+    border: 1px solid rgba(45, 55, 196, 0.39);
+}
+
+
+
+
+
