@@ -8,8 +8,7 @@
 
 body{
     background-image: url("../img/78255-background-looping-animation.gif");
-    background-position: center;
-    
+    background-position: center; 
 }
 
 .container{
@@ -17,8 +16,6 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
-   
 }
 
 .div_imagem{
@@ -44,8 +41,6 @@ body{
     border-right: 1px solid rgba(255,255,255,.3);
     border-top-right-radius: 11px;
     border-end-end-radius: 11px;
-
-    
 }
 
 
@@ -80,8 +75,6 @@ form button{
     border: none;
     cursor: pointer;
     margin-bottom: 19px;
-
-    
 }
 
 
@@ -90,8 +83,6 @@ form button{
     margin-bottom: 10px;
     font-size: 14px;
     color: white;
-    
-    
 }
 
 .form_cadastro form input{
@@ -101,8 +92,7 @@ form button{
     padding: 11px;
     border-radius: 3px;
     outline: none;
-    border: none;
-      
+    border: none;  
 }
 .form_cadastro .form input:focus{
     border: 1px solid rgba(45, 55, 196, 0.39);
